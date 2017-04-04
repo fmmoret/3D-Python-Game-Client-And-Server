@@ -34,6 +34,7 @@ class MovingObject(object):
 
 ### BASE FLYING SPELL - MOVING OBJECT
 class FlyingSpell(MovingObject):
+    model = '../models/arrow'
     target = None
     velocity = 1.0
     #def __init__(self, object_id, actor, world, match):

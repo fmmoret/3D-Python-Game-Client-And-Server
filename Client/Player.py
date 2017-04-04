@@ -33,11 +33,6 @@ class Player(MovingObject):
     def cast_update(self, spell_num, total_time, time_remaining):
         self.spell_num = spell_num
         self.cast_time = time_remaining
-        '''if total_time:
-            self.cast_bar['value'] = time_remaining / float(total_time) * 100
-        else:
-            self.cast_bar['value'] = 0
-        self.cast_bar['text'] = str(round(time_remaining,2))'''
 
     def status_update(self, health, alive, *cooldowns):
         self.health = health
