@@ -1,0 +1,3 @@
+Paste into all terrain groups.
+navigable group should be named "terrain"
+<Collide> { Polyset keep descend }
