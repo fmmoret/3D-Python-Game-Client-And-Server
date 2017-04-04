@@ -1,12 +1,16 @@
 # 3D-Python-Game-Client-And-Server
 This repo includes the code for the start of an online, multiplayer, 3d game.
 
+Built in python 2.7.
+
+Requires Panda3D to be installed on the machine. https://www.panda3d.org/download.php?sdk&version=1.9.4
+
 It uses Panda3D for rendering the scene, collision detection, and capturing inputs.
 It runs on TCP, does not yet have client prediction / lag compensation.
 No GUI implemented yet.
 
-**Start the server by running run_server.sh.
-Start a client by running run_client.sh.
+**Start the server by running run_server.sh from the project root.
+Start a client by running run_client.sh from the project root.
 A match starts for every 2 clients started.**
 
 ![Screenshot](/README_Resources/screenshot.png?raw=true "2 clients + server in debug mode")
