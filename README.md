@@ -34,6 +34,8 @@ Match.py represents a single match and is used for accepting messages from clien
 
 MatchServer.py queues client connections up and assigns pairs to Match instances.
 
+ServerNetworking.py defines messages that the server will send and receive.
+
 **********
 It has no lag compensation built in.
 This can be tested by running Test/lag_localhost.sh with a number like "50" for 50ms of lag.
