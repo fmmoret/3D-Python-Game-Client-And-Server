@@ -9,7 +9,7 @@ No GUI implemented yet.
 Start a client by running run_client.sh.
 A match starts for every 2 clients started.**
 
-![Screenshot](/README_resources/screenshot.png?raw=true "2 clients + server in debug mode")
+![Screenshot](/README_Resources/screenshot.png?raw=true "2 clients + server in debug mode")
 
 **Client/**
 
